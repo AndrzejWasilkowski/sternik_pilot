@@ -93,8 +93,9 @@ public class Pilot {
             przyciski.put("6", new CommandTelewizorGlosnoscMinus());
             Command[] komendy = {new CommandTelewizorWylacz(), new CommandWentylatorWylacz()};
             przyciski.put("7", new CommandMakro(komendy));
-            przyciski.put("8", new CommandPusty());
-            przyciski.put("9", new CommandPusty());
+            przyciski.put("8", new CommandWylaczWszystko());
+            przyciski.put("9", new CommandTrybNocny());
+            przyciski.put("10", new CommandPustyDom());
             przyciski.put("0", new CommandPrzelaczMenu(this));
             //przyciski.put("0", new CommandPusty());
             przyciski.put("Z", new CommandZakoncz());
